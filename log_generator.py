@@ -33,7 +33,7 @@ if __name__ == '__main__':
     parser.add_argument('--mapping-file', type=str,
                         help='Number of devices for metrics', default='mapping')
     parser.add_argument('--num-files', type=int,
-                        help='Number of devices for metrics', default=1)
+                        help='Number of generated files', default=1)
     parser.add_argument('--malformed', type=float,
                         help='Percent of malformed rows', default=1.0)
 
